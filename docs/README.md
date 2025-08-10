@@ -32,7 +32,7 @@ Automated tool for:
 ```powershell
 <<powershell -ExecutionPolicy Bypass -File "$PATH\src\main.ps1">>
 Replace $PATH with your installation directory (e.g., C:\security_tools\white_fox)
-
+```
 ## 🔧 Requirements
 PowerShell 5.1+ (Windows)
 
@@ -49,8 +49,11 @@ Restore original policy on exit
 
 ## ❓ FAQ
 Q: How to verify script integrity?
+```powershell
         Get-FileHash "$PATH\src\main.ps1" -Algorithm SHA256
-
+```
 Q: Script closes immediately?
 Check logs:
+```powershell
     notepad "$PATH\whitefox.log"
+```
