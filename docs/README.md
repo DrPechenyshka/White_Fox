@@ -2,7 +2,7 @@
 My home project to study cybersecurity and try create my best in this direction 
 
 # 🦊 White Fox - System Security Toolkit
-
+```powershell
 . . . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . . .
 . . . . . . . /\. . . ./\ . . . . . . .
@@ -19,7 +19,7 @@ My home project to study cybersecurity and try create my best in this direction
 . . . .       WHITE FOX         . . . .
 . . . .    KVRT + Hosts Tool    . . . .
 . . . . . . . . . . . . . . . . . . . .
-
+```
 ## 📌 Overview
 Automated tool for:
 - System scanning with KVRT (in-memory execution)
