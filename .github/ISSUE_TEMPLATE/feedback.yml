@@ -1,0 +1,73 @@
+name: Feedback / Bug Report
+description: Report a problem or suggest an improvement
+labels: ["feedback", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🛠️ Before Submitting
+        - Check [FAQ](README.md#faq).
+        - Ensure the script is run as Administrator.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+      placeholder: "Example: Script crashes when scanning..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step guide to trigger the issue.
+      placeholder: |
+        1. Run `.\main.psi -Scan`
+        2. See error...
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Type
+      options:
+        - Bug
+        - Enhancement
+        - Question
+      required: truename: Feedback / Bug Report
+description: Report a problem or suggest an improvement
+labels: ["feedback", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🛠️ Before Submitting
+        - Check [FAQ](README.md#faq).
+        - Ensure the script is run as Administrator.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+      placeholder: "Example: Script crashes when scanning..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step guide to trigger the issue.
+      placeholder: |
+        1. Run `.\main.psi -Scan`
+        2. See error...
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Type
+      options:
+        - Bug
+        - Enhancement
+        - Question
+      required: true
