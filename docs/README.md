@@ -30,9 +30,9 @@ Automated tool for:
 
 ### Basic Usage
 ```powershell
-<<powershell -ExecutionPolicy Bypass -File "$PATH\src\main.ps1">>
-Replace $PATH with your installation directory (e.g., C:\security_tools\white_fox)
+powershell -ExecutionPolicy Bypass -File "$PATH\src\main.ps1"
 ```
+Replace $PATH with your installation directory (e.g., C:\security_tools\white_fox)
 ## 🔧 Requirements
 PowerShell 5.1+ (Windows)
 
