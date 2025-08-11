@@ -50,10 +50,10 @@ Restore original policy on exit
 ## ❓ FAQ
 Q: How to verify script integrity?
 ```powershell
-        Get-FileHash "$PATH\src\main.ps1" -Algorithm SHA256
+Get-FileHash "$PATH\src\main.ps1" -Algorithm SHA256
 ```
 Q: Script closes immediately?
 Check logs:
 ```powershell
-    notepad "$PATH\whitefox.log"
+notepad "$PATH\whitefox.log"
 ```
