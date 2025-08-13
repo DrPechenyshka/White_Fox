@@ -9,7 +9,7 @@
 ## � Reporting Vulnerabilities  
 If you discover a vulnerability:  
 1. **Do not create a public Issue** — this could harm users.  
-2. Contact me directly: `nemiza2015@mail.ru` (PGP key: `0xABCD1234`).  
+2. Contact me directly: `nemiza2015@mail.ru`.  
 3. Expect a response within 48 hours.  
 
 ## 🔐 Security Notes  
